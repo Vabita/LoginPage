@@ -47,3 +47,13 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+a button{
+padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    width:380px;
+}

@@ -10,7 +10,7 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
 app.get('/',(req, res) => {
-    res.render('index')
+    res.render('login')
 })
 
 app.post('/register', (req, res) => {
@@ -28,8 +28,8 @@ app.post('/register', (req, res) => {
     });
 });
 
-app.get('/login',(req, res) => {
-    res.render('login')
+app.get('/register',(req, res) => {
+    res.render('index')
 })
 
 app.post('/login', (req, res) => {
